@@ -1,0 +1,356 @@
+.kc_pic {
+  position: absolute;
+  top: 7.8em;
+  left: 1em;
+  height: auto;
+  width: 77px;
+}
+
+.lh-10{
+  line-height: 10px!important;
+}
+
+.rt-tr{
+  /* border-bottom: 1px solid #657786!important; */
+}
+
+.video_column {
+  /* width: 480px!important; */
+}
+
+.ReactTable *{
+  margin: 0px 0px 0px!important;
+}
+
+.ReactTable .rt-tbody{
+  width: 480px;
+}
+
+.ReactTable .rt-thead{
+  border-bottom: 1px solid #657786!important;
+  width: 480px;
+}
+
+#midContainer .MuiInputBase-input {
+  width: 29.5em!important;
+  height: 3em!important;
+  border-radius: 5px!important;
+  font-size: 14px!important;
+  padding: 18.5px 2px!important;
+  padding-top: 2px!important;
+}
+
+#check {
+  transform: translate3d(477px, 206px, 0px) !important;
+  width: 150px;
+  z-index: 1;
+  box-shadow: 0px 0px 5px 0px rgba(101, 119, 134, 1);
+}
+
+#check1 {
+  transform: translate3d(352, 55px, 0px) !important;
+  width: 150px;
+  z-index: 1;
+  box-shadow: 0px 0px 5px 0px rgba(101, 119, 134, 1);
+}
+
+.dashboard {
+  margin-right: -40px!important;
+}
+
+.MuiExpansionPanelSummary-expandIcon {
+  padding-top: 0px!important;
+}
+
+/* @font-face {
+  font-family: 'Helvetica Medium';
+  src: local('Helvetica'), url("../../components/fonts/Helvetica/HelveticaNeueMed.ttf") format('truetype');
+} */
+
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: local('Helvetica'), url("../../components/fonts/Helvetica/HelveticaNeueBd.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica_Neue_Black';
+  src: local('Helvetica_Neue_Black'), url("../../components/fonts/Helvetica/Helvetica95Black.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url("../../components/fonts/Inter-VariableFont_slnt,wght.ttf") format('truetype');
+}
+
+.beamDashboard {
+  display: flex;
+  justify-content: flex-end;
+  width: 32.6%;
+}
+
+.MuiPopover-paper {
+  left: 447px!important;
+  top: 256px!important;
+}
+
+@media (min-width: 1900px) {
+  .MuiPopover-paper {
+    left: 462px!important;
+    top: 256px!important;
+  }
+  .beamDashboard {
+    display: flex;
+    justify-content: flex-end;
+    width: 30.2%;
+  }
+  #check {
+    transform: translate3d(1034px, 206px, 0px) !important;
+    width: 150px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 0px rgba(101, 119, 134, 1);
+  }
+  .MuiPopover-paper {
+    width: 12%!important;
+    cursor: default!important;
+  }
+  .dashboard {
+    margin-right: -56px!important;
+  }
+}
+
+.justify-space-between{
+  justify-content: space-between!important;
+}
+
+@media (max-width: 1440px) {
+  .beamDashboard {
+    display: flex;
+    justify-content: flex-end;
+    width: 27%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .dashboard {
+    margin-right: -44px!important;
+  }
+}
+
+@media (max-width: 1325px) {
+  .beamDashboard {
+    display: flex;
+    justify-content: flex-end;
+    width: 29.4%;
+  }
+  .dashboard {
+    margin-right: -68px!important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .MuiPopover-paper {
+    left: 429px!important;
+    top: 256px!important;
+  }
+  .beamDashboard {
+    display: flex;
+    justify-content: flex-end;
+    width: 29%;
+  }
+  .dashboard {
+    margin-right: -67px!important;
+  }
+}
+
+.secondColumn {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -30px;
+}
+
+.MuiOutlinedInput-multiline:focus {
+  border: 1px solid #81A9DB!important;
+}
+
+.MuiFormControl-root .MuiTextField-root .MuiFormControl-fullWidth {
+  border: 1px solid #81A9DB!important;
+}
+
+.MuiPopover-paper {
+  border: 1px solid #ACB6BE;
+  width: 16%;
+  box-shadow: none!important;
+  cursor: default!important;
+}
+
+.MuiOutlinedInput-multiline {
+  height: 7em!important;
+  border: 1px solid #81A9DB!important;
+  background-color: white;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.MuiOutlinedInput-multiline:hover {
+  border: 1px solid #81A9DB!important;
+}
+
+#testDashboard .short-text {
+  color: #14171a!important;
+  font-size: 20px!important;
+  line-height: 30px!important;
+  font-weight: normal!important;
+  /* padding-left: 40px!important; */
+}
+
+.short-text {
+  color: #14171a!important;
+}
+
+/* .MuiExpansionPanelDetails-root{
+  padding: 8px 24px 0px;
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.footerListUl {
+  width: 115%;
+  margin-left: -2em;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 1.1rem;
+}
+
+.footerList {
+  padding-right: 12px;
+  color: #657786;
+  font-size: 12px!important;
+  font-weight: normal!important;
+  font-family: Helvetica!important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none!important;
+}
+
+.MuiExpansionPanelSummary-content.Mui-expanded {
+  margin: 0px 0!important;
+}
+
+.MuiExpansionPanel-root.Mui-expanded, .sectionGap {
+  margin: 4px 0px!important;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+.activity {
+  width: 120px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: rgb(20, 23, 26);
+  cursor: initial;
+  margin-left: -2px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* .paperWidth {
+  width: 252px
+} */
+
+@media (max-width: 1024px) {
+  .activity {
+    width: 120px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: rgb(20, 23, 26);
+    cursor: initial;
+    margin-left: -2px;
+  }
+  #midContainer .MuiInputBase-input {
+    width: 26em!important;
+  }
+  .dashboard {
+    margin-right: -45px!important;
+  }
+  .beamDashboard {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+  }
+  .footerListUl{
+    margin-top: 14%!important;
+  }
+}
+
+@media (max-width: 800px) {
+  .beamDashboard {
+    width: 100%!important;
+    justify-content: center;
+  }
+  .paperWidth {
+    width: 96%;
+  }
+}
+
+@media (max-width: 768px) {
+  #midContainer .MuiInputBase-input {
+    width: 36em!important;
+  }
+}
+
+@media (max-width: 600px) {
+  #midContainer .MuiInputBase-input {
+    width: 27em!important;
+  }
+}
+
+@media (max-width: 480px) {
+  #midContainer .MuiInputBase-input {
+    width: 20em!important;
+  }
+  .paperWidth {
+    width: 93%;
+  }
+}
+
+@media (max-width: 420px) {
+  #midContainer .MuiInputBase-input {
+    width: 13em!important;
+  }
+  .MuiPopover-paper {
+    left: 81px!important;
+    top: 170px!important;
+    width: 60%!important;
+  }
+  .expandIcon{
+    margin-top: -20px;
+  }
+}
+
+.pictureIcon {
+  margin-left: 3em;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+}

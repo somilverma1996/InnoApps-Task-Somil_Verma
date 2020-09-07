@@ -1,0 +1,50 @@
+.abc{
+    font-family: 'Roboto Slab', serif;
+}
+.short-text{
+    line-height: 30px!important;
+font-size: 14px;
+}
+.btn-link:focus, .btn-link:hover{
+ text-decoration: none!important;   
+}
+
+.ck.ck-editor__main>.ck-editor__editable {
+    background: var(--ck-color-base-background);
+    border-radius: 0;
+    height: 120px;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+.read-more-content {
+    color: #1560bd!important
+}
+
+span.readMoreText {
+    color: #1560bd!important
+}
+
+.backIcon1 {
+    font-size: 20px;
+}
+
+.backIcon1:hover{
+    color: #1560bd!important   
+}
+
+.lg-10{
+    margin-left: -20px;
+}
+
+.lg-101{
+    margin-left: -10px;
+}
+
+@media (min-width: 1900px){
+    .lg-10{
+        margin-left: -40px;
+    }
+    .lg-101{
+        margin-left: -50px;
+    }
+}

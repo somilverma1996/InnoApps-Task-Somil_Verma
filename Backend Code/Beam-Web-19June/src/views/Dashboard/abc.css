@@ -1,0 +1,44 @@
+/* .abc{
+    font-family: 'Roboto Slab', serif;
+} */
+
+.abc {
+    font-family: "Helvetica Neue Regular";
+    src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot")
+}
+
+#dashboardTxtArea .MuiInputBase-input {
+    border: 0px transparent!important;
+}
+
+.crossIcon{
+    cursor: pointer;
+    margin-top: 2px;
+    line-height: unset;
+}
+
+.file {
+    font-size: 14px;
+    width: 130px;
+    font-family: Helvetica;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.lastviewed {
+    float: left!important;
+}
+
+.ReactTable .rt-thead .rt-resizable-header:last-child {
+    float: left!important;
+}
+/* 
+.ReactTable .rt-thead .rt-resizable-header-content:last-child {
+    float: left!important;
+}
+
+
+.lastviewed .ReactTable .rt-thead .rt-resizable-header:last-child {
+    float: left!important;
+} */

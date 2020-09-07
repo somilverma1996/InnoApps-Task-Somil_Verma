@@ -1,0 +1,104 @@
+.navlinks{
+    line-height: 36px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #657786;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+
+.activeNav {
+    border-bottom: 3px solid #1560BD;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    color: #1560BD;
+    font-family: Helvetica;
+}
+
+.Sidebar-itemLink-16  .Sidebar-blue-21 .active {
+    font-weight: 500!important;
+}
+
+.showMobile {
+    display: none!important;
+}
+
+.navlink2 {
+   font-size: 16px;
+}
+.avatarImage {
+    display: block;
+}
+.avatarImage {
+    margin-right: -10em
+}
+
+.MuiExpansionPanelSummary-content.Mui-expanded {
+    margin: 0px 0;
+}
+.headerMain {
+    display: flex;
+    width: 100%;
+}
+@media (min-width: 1024px) {
+    .avatarImage {
+        margin-right:10em!important
+    }
+}
+@media (min-width: 1280px) {
+    .avatarImage {
+        margin-right:-15em!important
+    }
+}
+@media (min-width: 1300px) {
+    .avatarImage {
+        margin-right:-20em!important
+    }
+}
+@media (min-width: 1900px) {
+    .avatarImage {
+        margin-right:-77em!important
+    }
+}
+@media (max-width: 800px) {
+    .navlinks {
+        width: 120px;
+    }
+    .headerMain {
+        display: flex;
+        width: 91%!important;
+    }
+    .navlink2 {
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .avatarImage {
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .headerMain {
+        display: flex;
+        width: 80%!important;
+    }
+    .avatarImage{
+        display: none!important;
+    }
+}
+@media (max-width: 420px){
+    .headerMain {
+        display: flex;
+        width: 93%!important;
+    }
+}
+@media (max-width: 420px){
+    .headerMain {
+        display: flex;
+        width: 100%!important;
+    }
+}

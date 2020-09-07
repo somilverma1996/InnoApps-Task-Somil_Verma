@@ -8,7 +8,6 @@ import { userActions } from '../_actions';
 import { history } from '../_helpers';
 import { withRouter } from 'react-router-dom';
 import config from '../config/config';
-import './images.component.css'
 
 
 const styles = theme => ({
@@ -45,6 +44,29 @@ const styles = theme => ({
     input: {
         display: 'none',
     },
+    dFlex: {
+        display: "flex!important"
+    },
+    justifyContentCenter :{
+        justifyContent: "space-between!important"
+    },
+    mAuto: {
+        margin: "auto!important"
+    },
+    btnSubmit: {
+        height: "40px",
+        background: "gray",
+        color: "white",
+        textAlign: "center",
+        width: "8%",
+        fontSize: "18px",
+        marginBottom: "50px !important"
+    },
+    loginMargin: {
+        marginTop: "100px",
+        marginBottom: "100px"
+    }
+    
 });
 
 
@@ -106,16 +128,17 @@ class Images extends Component {
     render() {
         const { classes } = this.props;
         return (
-            <div className="login-margin">
+            <div className={classes.loginMargin}>
                 <Grid className="">
-                    <input className="text-center m-auto" type="file" multiple onChange={this.handleImageChange} ></input>< br />
-                    <Button onClick={this.handleClick} className="btnSubmit">Submit</Button><br />
+                    <input className={classes.dFlex +" "+ classes.mAuto} type="file" multiple onChange={this.handleImageChange} ></input>< br />
+                    <Button onClick={this.handleClick} className={classes.btnSubmit +" "+ classes.dFlex +" "+ classes.mAuto}>Submit</Button><br />
                     <span style={{ color: "red" }}>{this.props.authentication.errorMsg}</span>
                     <div style={{ display: 'flex', flexWrap: 'wrap', }}>
                         {
-                            this.state.images.map((data, index) => (
+                            this.props.authentication.images.map((data, index) => (
                                 <Paper class="col-md-3" elevation={2} >
                                     <img style={{ margin: "3%" }} src={config.baseUrl + "/images/" + data} width="200px" height="200px" alt="img" />
+                                    <span>{data}</span>
                                 </Paper>
                             ))
                         }

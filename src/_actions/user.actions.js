@@ -3,10 +3,12 @@ import { history } from '../_helpers';
 
 export const userActions = {
    uploadImages, 
-   saveError
+   saveError,
 };
 
+
 function uploadImages(payload) {
+    localStorage.clear()
   return dispatch => {
         let apiEndPoint = "/user/upload";
         userService.post(apiEndPoint, payload)

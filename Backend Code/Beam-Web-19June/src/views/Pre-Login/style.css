@@ -1,0 +1,35 @@
+.MuiMenuItem-root{ 
+    font-size: 15px!important;    
+}
+
+@media (min-width: 1900px){
+    .MuiMenuItem-root{ 
+        font-size: 16px!important;    
+    }
+}
+
+a:hover {
+    color: red!important
+}
+
+.MuiInputBase-inputSelect{
+    padding-bottom: 15px!important;
+}
+
+.MuiFormControl-fullWidth{
+    width: 94%!important;
+}
+
+.MuiButton-label{
+    font-size: 15px!important;
+}
+
+.backIcon {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.backIcon:hover {
+    color: #1560BD
+}

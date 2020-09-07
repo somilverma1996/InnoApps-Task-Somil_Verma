@@ -1,0 +1,12 @@
+#document .MuiExpansionPanelSummary-root {
+    padding: 0 24px 0 62px;
+}
+
+
+#documents .MuiExpansionPanel-root.Mui-expanded, .sectionGap{
+  margin-top: -1.7em!important;
+}
+
+.MuiButton-label{
+  line-height: 1rem;
+}

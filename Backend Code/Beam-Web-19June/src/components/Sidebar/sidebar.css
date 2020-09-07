@@ -1,0 +1,40 @@
+.side:hover{
+    background-color:white;
+}
+.side1:hover{
+    background-color: #e6ecf0;
+}
+
+@font-face {
+    font-family: 'Imprint mt shadow';
+    src: local('Helvetica'), url("../../components/fonts/Imprint MT Shadow.ttf") format('truetype');
+}
+
+.networkTab {
+    height: 38px;
+    width: 100%;
+    padding: 5% 14%;
+    font-size: 15px;
+    font-weight: normal!important;
+    font-family: Helvetica;
+    color: #14171a;
+}
+
+.activeNetwork {
+    background-color: rgb(230, 236, 240);
+    margin-top: 4%;   
+    color: #14171a;
+    height: 30px;
+    width: 100%;
+    padding: 2% 14%;
+    font-size: 15px;
+    font-weight: bold!important;
+    font-family: Helvetica!important;
+}
+
+.Sidebar-itemLink-16 .active > .Sidebar-itemText-18 {
+    font-weight: 700 + "!important";
+}
+/* .navlinks {
+    margin-left: 15px!important;
+} */

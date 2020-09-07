@@ -1,0 +1,36 @@
+#requests .MuiExpansionPanelDetails-root{
+    padding: 8px 0px 0px!important;
+}
+
+.MuiPaper-root {
+    border-radius: 0px!important;
+    box-shadow: none!important;
+}
+
+.requestWidth {
+    width: 91%;
+}
+.editClass{
+    color: #1560bd;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Helvetica;
+}
+.currentInvestor{
+    color: rgb(20, 23, 26);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -39px;
+
+}
+.mrightRequests{
+    margin-right: 4%;
+}
+@media (min-width: 1900px) {
+    .requestWidth {
+        width: 94.7%;
+    }
+    .mrightRequests{
+        margin-right: -2%;
+    }
+}
