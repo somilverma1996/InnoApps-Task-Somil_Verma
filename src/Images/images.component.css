@@ -1,0 +1,24 @@
+.login-margin {
+    margin-top: 100px;
+    display: 'flex';
+    overflow: hidden;
+    margin: 40
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btnSubmit {
+    background-color: gray!important;
+    color: black!important;
+    font-size: 20px!important;
+}
